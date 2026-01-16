@@ -1,5 +1,9 @@
 # llm-multi-agent-benchmark ⚡🤖
 
+<p align="center">
+  <img src="figures/figure1_method_overview.png" alt="Benchmark overview figure" width="900">
+</p>
+
 **Reproducible energy benchmark for comparing single-system vs LLM-based multi-agent coordination.**
 
 This repository contains the code and materials for the course project paper **“Benchmarking Multi-Agent Coordination for Energy Planning.”**
@@ -16,9 +20,13 @@ It provides an episode-based evaluation setup built from OWID-derived country-le
 
 ## Paper 📄
 
-**Final report (PDF):**
+📌 **Final report (PDF):**
 
-* `paper/paper-MAS.pdf`
+* **[`paper/paper-MAS.pdf`](paper/paper-MAS.pdf)**
+
+🧩 **System overview figure:**
+
+* **[`figures/figure1_method_overview.png`](figures/fig.png)**
 
 ---
 
@@ -56,37 +64,6 @@ Ablations:
 
 * **No Veto** (coordinator without the veto safeguard)
 * **No Communication** (collapsed interaction depth / single-step variant)
-
----
-
-## Quickstart 🚀
-
-### 1) Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 2) Set Groq API key 🔑
-
-Linux/macOS:
-
-```bash
-export GROQ_API_KEY="YOUR_KEY"
-```
-
-Windows (PowerShell):
-
-```powershell
-setx GROQ_API_KEY "YOUR_KEY"
-```
-
-### 3) Run ▶️
-
-* Recommended: run the notebook
-
-  * `notebooks/Benchmarking Multi-Agent.ipynb`
-
 
 ---
 
