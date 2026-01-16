@@ -1,9 +1,5 @@
 # llm-multi-agent-benchmark ⚡🤖
 
-<p align="center">
-  <img src="figures/figure1_method_overview.png" alt="Benchmark overview figure" width="900">
-</p>
-
 **Reproducible energy benchmark for comparing single-system vs LLM-based multi-agent coordination.**
 
 This repository contains the code and materials for the course project paper **“Benchmarking Multi-Agent Coordination for Energy Planning.”**
@@ -26,7 +22,9 @@ It provides an episode-based evaluation setup built from OWID-derived country-le
 
 🧩 **System overview figure:**
 
-* **[`figures/figure1_method_overview.png`](figures/fig.png)**
+<p align="center">
+  <img src="figures/fig.png" alt="Benchmark overview figure" width="900">
+</p>
 
 ---
 
